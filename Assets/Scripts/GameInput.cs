@@ -32,5 +32,10 @@ public class GameInput : MonoBehaviour
     {
         return inputSystems.Player.Jump.triggered;
     }
-    
+
+    public bool isInteractPressed()
+    {
+        return inputSystems.Player.Interact.triggered;
+    }
+
 }
